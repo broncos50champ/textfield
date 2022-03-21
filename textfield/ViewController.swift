@@ -47,7 +47,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func buttonfuntion(_ sender: Any) {
+    @IBAction func buttonfuntion(_ sender: Any)
+    {
+        var word = textoutlet.text
+        labeloutlet.text = word
+        
+        
     }
     
 }
